@@ -1,0 +1,24 @@
+## Tarefa 002 - 28/07/2021 - Pesquisa Rest API
+
+1. Elaborar uma pesquisa sobre o tema "_Rest API_".
+2. Elaborar um texto de pelo menos uma página, descrito com suas próprias palavras, destacando:
+* As definições dos conceitos envolvidos;
+* As principais características deste conceito (pelo menos umas cinco).
+
+**2.**
+Dividindo o tema _REST API_, podemos falar de dois pontos principais, que está no próprio nome, o primeiro seria o **REST** que é uma sigla/acrônimo em inglês que significa Representational State Transfer, ou traduzindo, Transferência Representacional de Estados. O REST é um estilo de arquitetura de software, criada por Roy Fielding, que não é um protocolo nem um padrão, mas sim um conjunto de restrições de arquitetura para que as requisições HTTP atendam as diretrizes definidas. Em resumo, as restrições determinadas pela REST são:
+* **cliente-servidor:** Em que diz que as aplicações existente no servidor e no cliente devem ser separadas
+* **sem estado:** Em que diz que as requisições são feitas de forma independente uma da outra, e cada uma tem apenas uma certa ação
+* **cache:** Em que diz que a API deve utilizar o cache para evitar chamadas recorrentes para o servidor
+* **inteface uniforme:** Que agrupa outros 4 conceitos, que determina que os recursos devem ser identificados, a manipulação dos recursos deve ser por meio de representação, com mensagens autodescritivas e se deve utilizar links para navegar pelo aplicativo.
+
+**API** também é um acrônimo de Application Programming Interface, que traduzido seria Interface de Programação de Aplicações, que é um conjunto de definições e padrões definidos e documentados por uma aplicação seja ela qual for, de maneira que outras aplicações possam utilizar ela, sem saber os detalhes da implentação do software que vão utilizar. Em resumo, seria um sistema utilizando as funcionalidades de um outro sistema, ou seja, fazendo uma integração entre aplicações. Às vezes, ela é definida como um contrato entre um provedor e um usuário de informações, firmando o que foi requerido pelo consumidor, que seria a chamada e o conteúdo exigido pelo produtor, que seria a resposta. Exemplo disso seria a API de um serviço de auxílio de endereço em um site de venda, em que o usuário digita o CEP e o produtor responde com o endereço(cidade, rua...). É possivel pensar na API como uma ponte entre os usuários ou clientes e os recursos ou serviços web que eles desejam. A API auxilia organizações a compartilhar funções e informações, com segurança, controle e obrigatoriedade de autenticação, uma vez que permite quem tem acesso e o que pode ser acessado. Para fazer tudo isso, a API usa requisições HTTP responsáveis pelas operações básicas necessárias para a manipulação dos dados. As principais são:
+* **POST:** Criar dados
+* **GET:** Leitura de dados
+* **DELETE:** Excluir informações
+* **PUT:** Atualizar registro
+
+**_API REST_** é o conjunto de boas práticas utilizadas nas requisições HTTP feita por uma API em uma aplicação web. Resumindo seria dizer que a **API** se comunica com o back-end, de uma maneira que a comunicação seja feita com os padrões definidos pelo **REST**. As principais vantagens e importância para o uso da **_REST API_** seria a facilidade, segurança, rapidez em que empresas/software tenham acesso às informações com fluidez de dados/utilidades de outra aplicação. Também é possível citar, a separação entre o back-end e o front-end, fazendo uma proteção geral do armazenamento dos dados, outro ponto seria a escabilidade que isso traz, uma vez que não há dificuldade para acoplar recursos. E por fim, mas não mesmo importante(não mesmo!), é a capacidade de ser multiplataforma, já que as requisições retornam arquivos **JSON**(na maioria das aplicações), e a muita das linguagens de programação nativamente aceitam o tipo JSON, usando funções para ler ou escrever nesse formato.
+
+**JSON** é um acrônimo de JavaScript Object Notation, ou Notação de Objeto JavaScript, e ele define um padrão para armazenamento e troca de informações em formato texto. É facilmente interpretado por qualquer programador, pois segue um padrão lógico muito simples, e também rápido e simples de ser interpretado e gerado pelas máquinas. Sendo assim, ele é utilizado para a troca e armazenamento de informações. Existem outros padrões para a troca de informações, um exemplo seria o **XML**, porém o mais usado é o formato JSON.
+Muita gente faz uma confusão com os termos **API REST** com **API RESTful**, porém pode se dizer que são a mesma coisa, como REST sendo o que foi definido anteriormente, e RESTful sendo a capacidade de um sistema aplicar os príncipios de REST.
