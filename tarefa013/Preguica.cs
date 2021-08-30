@@ -15,7 +15,7 @@ namespace Tarefa13_1
 
         public override string ToString()
         {
-            return $"Eu sou um cavalo, meu nome é {Nome} e tenho {Idade} anos";
+            return $"Eu sou uma preguiça, meu nome é {Nome} e tenho {Idade} anos";
         }
 
         public string SubirEmArvore()

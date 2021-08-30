@@ -42,22 +42,22 @@ namespace Tarefa13_1
             cavalo4.Idade = 15;
             jaulasZoo.Add(cavalo4);
 
-            Cachorro preguica1 = new Cachorro();
+            Preguica preguica1 = new Preguica();
             preguica1.Nome = "Sonera";
             preguica1.Idade = 30;
             jaulasZoo.Add(preguica1);
 
-            Cachorro preguica2 = new Cachorro();
+            Preguica preguica2 = new Preguica();
             preguica2.Nome = "Pesadelo";
             preguica2.Idade = 12;
             jaulasZoo.Add(preguica2);
 
-            Cachorro preguica3 = new Cachorro();
+            Preguica preguica3 = new Preguica();
             preguica3.Nome = "Sonho";
             preguica3.Idade = 22;
             jaulasZoo.Add(preguica3);
 
-            Cachorro preguica4 = new Cachorro();
+            Preguica preguica4 = new Preguica();
             preguica4.Nome = "Lesador";
             preguica4.Idade = 6;
             jaulasZoo.Add(preguica4);
