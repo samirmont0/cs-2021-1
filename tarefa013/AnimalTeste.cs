@@ -33,6 +33,9 @@ namespace Tarefa13_1
             vet.Examinar(cachorro);
             vet.Examinar(cavalo);
             vet.Examinar(preguica);
+
+            Zoologico zoo = new Zoologico();
+            zoo.percorrerJaulas();
         }
     }
 }
