@@ -4,4 +4,5 @@
 2. Elaborar um resumo descritivo do resultado da pesquisa.
 
 ##State
+
 É um padrão de projeto, que é usado quando o comportamento de objeto muda, dependendo do seu estado. Sendo assim, é um padrão comportamental que permite essa flexibilidade do objeto para que ele mude seu comportamento quando seu estado interno altera.
